@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>dfg</title>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.16.0"></script>
+<style>
+:root { --map-bg:#0f0f13; --node-text:#e8e8f0; --accent:#7c6af7; --border:#2e2e3a; --surf:rgba(23,23,30,.93); --muted:#8888a0; }
+body.light { --map-bg:#f4f4f8; --node-text:#1a1a2e; --accent:#5a4fd8; --border:#d0d0de; --surf:rgba(237,237,243,.95); --muted:#5a5a7a; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--map-bg); overflow:hidden; height:100vh; transition:background .25s; }
+#mm { width:100vw; height:100vh; display:block; background:var(--map-bg); transition:background .25s; }
+#mm text { fill:var(--node-text) !important; transition:fill .25s; }
+#mm .markmap-link:hover { stroke-opacity:.85 !important; }
+#mm .markmap-node circle { stroke-width:2px !important; }
+#toolbar { position:fixed; bottom:20px; right:20px; z-index:100; display:flex; align-items:center; gap:5px; background:var(--surf); border:1px solid var(--border); border-radius:14px; padding:5px 9px; backdrop-filter:blur(10px); box-shadow:0 4px 24px rgba(0,0,0,.35); transition:background .25s,border-color .25s; }
+#tb-brand { display:flex; align-items:center; gap:7px; text-decoration:none; margin-right:3px; }
+#tb-logo { width:24px; height:24px; border-radius:7px; background:var(--accent); display:flex; align-items:center; justify-content:center; flex-shrink:0; transition:background .25s; }
+#tb-logo svg { width:13px; height:13px; color:#fff; }
+#tb-name { font-family:serif; font-size:14px; color:var(--accent); letter-spacing:-.3px; transition:color .25s; }
+.tb-sep { width:1px; height:20px; background:var(--border); margin:0 2px; flex-shrink:0; transition:background .25s; }
+.tb-btn { width:28px; height:28px; border-radius:8px; background:transparent; border:1px solid var(--border); color:var(--muted); cursor:pointer; display:flex; align-items:center; justify-content:center; transition:background .15s,color .15s,border-color .25s; flex-shrink:0; }
+.tb-btn:hover { background:rgba(124,106,247,.15); color:var(--accent); border-color:var(--accent); }
+.tb-btn svg { width:13px; height:13px; pointer-events:none; }
+#s-bg { display:none; position:fixed; inset:0; background:rgba(0,0,0,.6); backdrop-filter:blur(5px); z-index:200; align-items:center; justify-content:center; }
+#s-bg.open { display:flex; }
+#s-box { background:#17171e; border:1px solid #2e2e3a; border-radius:14px; box-shadow:0 8px 48px rgba(0,0,0,.6); width:90%; max-width:360px; overflow:hidden; animation:mIn .2s ease; }
+body.light #s-box { background:#fff; border-color:#d0d0de; }
+@keyframes mIn { from{opacity:0;transform:translateY(8px) scale(.97)} to{opacity:1;transform:none} }
+.s-head { display:flex; align-items:center; justify-content:space-between; padding:14px 18px 10px; border-bottom:1px solid #2e2e3a; font-family:serif; font-size:16px; color:var(--accent); }
+body.light .s-head { border-bottom-color:#d0d0de; }
+.s-close { background:none; border:none; color:var(--muted); cursor:pointer; font-size:18px; line-height:1; }
+.srow { display:flex; align-items:center; justify-content:space-between; padding:12px 18px; border-bottom:1px solid #2e2e3a; gap:10px; }
+body.light .srow { border-bottom-color:#d0d0de; }
+.srow:last-child { border-bottom:none; }
+.slabel { font-family:sans-serif; font-size:13px; color:var(--node-text); }
+.slabel small { display:block; font-size:11px; color:var(--muted); margin-top:2px; }
+.sinput { width:76px; background:#25252f; border:1px solid #2e2e3a; border-radius:6px; color:#e8e8f0; font-family:monospace; font-size:13px; padding:5px 8px; outline:none; text-align:center; transition:border-color .2s; }
+body.light .sinput { background:#e2e2ea; border-color:#d0d0de; color:#1a1a2e; }
+.sinput:focus { border-color:var(--accent); }
+
+</style>
+</head>
+<body class="">
+
+<svg id="mm"></svg>
+<div id="toolbar">
+  <a id="tb-brand" href="https://SEGNAPOSTO_LINK_NODELY" target="_blank" title="Apri Nodely">
+    <div id="tb-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+    <span id="tb-name">Nodely</span>
+  </a>
+  <div class="tb-sep"></div>
+  <button class="tb-btn" id="tb-theme" title="Chiaro / Scuro"><svg id="tb-ti" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+  <button class="tb-btn" id="tb-zi" title="Zoom +"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></button>
+  <button class="tb-btn" id="tb-zo" title="Zoom -"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/></svg></button>
+  <button class="tb-btn" id="tb-fit" title="Adatta alla finestra"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 00-2 2v3"/><path d="M21 8V5a2 2 0 00-2-2h-3"/><path d="M3 16v3a2 2 0 002 2h3"/><path d="M16 21h3a2 2 0 002-2v-3"/></svg></button>
+  <button class="tb-btn" id="tb-settings" title="Impostazioni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg></button>
+</div>
+<div id="s-bg">
+  <div id="s-box">
+    <div class="s-head">Impostazioni <button class="s-close" id="s-close-btn">&#x2715;</button></div>
+    <div class="srow"><div class="slabel">Larghezza nodi<small>Testo max per nodo (px)</small></div><input class="sinput" id="s-maxw" type="number" min="100" max="1200" step="10" value="500"></div>
+  </div>
+</div>
+<!-- NODELY_MD_START
+# La mia mappa
+
+## Argomento 1
+- Punto con **grassetto** e *corsivo*
+- Punto con `inline code`
+  - Sotto-punto A
+  - Sotto-punto dd
+
+## Argomento 2
+- Testoasdads con ==evidenziazione==
+- Formula: $E = mc^2$
+- Immagine: &lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1280px-Saturn_during_Equinox.jpg" height="60"&gt;
+
+## Note
+- Nota ~~barrata~~
+  1. Primo elemento
+  2. Secondo elemento
+
+## Aiuto
+- Chi sei?
+- Chi sono?
+
+NODELY_MD_END -->
+<!-- NODELY_FOLD_START
+{"0":0,"0/0":0,"0/0/0":0,"0/0/1":0,"0/0/1/0":0,"0/0/1/1":0,"0/1":0,"0/1/0":0,"0/1/1":0,"0/1/2":0,"0/2":0,"0/2/0":0,"0/2/1":0,"0/2/2":0,"0/3":0,"0/3/0":0,"0/3/1":0}
+NODELY_FOLD_END -->
+<script>
+(async () => {
+  const COLORS = ["#7c6af7","#5de0c5","#f7a26a","#f06a6a","#60c5f7","#a8e86e","#f760c5","#f7e060"];
+  let dark = true;
+
+  function buildInner(isDk) {
+    var txt = isDk ? '#e8e8f0' : '#1a1a2e';
+    var cbg = isDk ? 'rgba(124,106,247,0.18)' : 'rgba(90,79,216,0.12)';
+    var cc  = isDk ? '#a89fff' : '#5a4fd8';
+    var cbr = isDk ? 'rgba(124,106,247,0.3)' : 'rgba(90,79,216,0.25)';
+    return '* { color:'+txt+' !important; box-sizing:border-box; }' +
+      'strong,b{font-weight:700;}em,i{font-style:italic;}del,s{text-decoration:line-through;}' +
+      'mark{background:rgba(255,210,50,0.35)!important;color:'+txt+'!important;border-radius:3px;padding:0 3px;}' +
+      'code{background:'+cbg+'!important;color:'+cc+'!important;border-radius:4px;padding:1px 5px;font-family:monospace;font-size:0.88em;border:1px solid '+cbr+';}' +
+      'ol{list-style:decimal!important;padding-left:1.8em!important;margin:2px 0!important;white-space:normal!important;}' +
+      'ul{list-style:disc!important;padding-left:1.8em!important;margin:2px 0!important;white-space:normal!important;}' +
+      'li{display:list-item!important;color:'+txt+'!important;white-space:normal!important;}' +
+      'a{color:#7c6af7!important;text-decoration:underline;cursor:pointer;}a:hover{color:#a89fff!important;}' +
+      '.katex,.katex *{color:'+txt+'!important;}.katex svg,.katex path{fill:'+txt+'!important;stroke:'+txt+'!important;}' +
+      'img{max-width:100%;display:inline-block;}';
+  }
+
+  function injectFO(svg, isDk) {
+    const css = buildInner(isDk);
+    svg.querySelectorAll('foreignObject').forEach(fo => {
+      const old = fo.querySelector('style[data-mf]'); if (old) old.remove();
+      const s = document.createElement('style');
+      s.setAttribute('data-mf','1'); s.textContent = css;
+      if (fo.firstElementChild) fo.insertBefore(s, fo.firstElementChild); else fo.appendChild(s);
+    });
+    const nc = isDk ? '#e8e8f0' : '#1a1a2e';
+    svg.querySelectorAll('text').forEach(t => t.style.setProperty('fill', nc, 'important'));
+    function fixC(svg) {
+      svg.querySelectorAll('.markmap-node circle').forEach(circle => {
+        let stroke = getComputedStyle(circle).stroke;
+        if (!stroke || stroke === 'none' || stroke === '') {
+          const g = circle.closest('.markmap-node');
+          if (g) stroke = g.getAttribute('stroke') || getComputedStyle(g).stroke;
+        }
+        if (stroke && stroke !== 'none' && stroke !== '') circle.style.setProperty('fill', stroke, 'important');
+      });
+    }
+    fixC(svg);
+    const dl = Date.now() + 350;
+    (function raf(){ if(Date.now()<dl){ fixC(svg); requestAnimationFrame(raf); } })();
+  }
+
+  const raw = document.documentElement.innerHTML;
+  const mdm = raw.match(/NODELY_MD_START\n([\s\S]*?)\nNODELY_MD_END/);
+  if (!mdm) { console.error('Markdown non trovato'); return; }
+  const md = mdm[1].replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+  const fm = raw.match(/NODELY_FOLD_START\n([\s\S]*?)\nNODELY_FOLD_END/);
+  const FOLD = fm ? JSON.parse(fm[1]) : {};
+  let proc = md.replace(/==([^=\n]+)==/g,'<span style="background:rgba(255,210,50,0.4);border-radius:3px;padding:0 3px;">$1</span>');
+  proc = proc.replace(/^(\s*)([\d]+(?:\.[\d]+)*)\.\s(.*)$/gm, (_,_i,num,text) => '  '.repeat(num.split('.').length-1)+'- <span style="font-weight:700;margin-right:4px;">'+num+'.</span> '+text);
+
+  await new Promise(r => { function c(){ (window.markmap&&window.markmap.Markmap&&window.markmap.Transformer)?r():setTimeout(c,50); } c(); });
+  const { Transformer, Markmap, loadCSS, loadJS } = window.markmap;
+  const tr = new Transformer();
+  const { features: fp } = tr.transform(proc);
+  const ap = tr.getUsedAssets(fp);
+  if (ap.styles&&ap.styles.length) loadCSS(ap.styles);
+  if (ap.scripts&&ap.scripts.length) await loadJS(ap.scripts, { getMarkmap: () => window.markmap });
+  if (ap.scripts&&ap.scripts.length&&!window.katex) {
+    await new Promise(r => { const dl=Date.now()+3000; function ck(){ (window.katex||Date.now()>dl)?r():setTimeout(ck,50); } ck(); });
+  }
+  const { root, features } = tr.transform(proc);
+  const assets = tr.getUsedAssets(features);
+  if (assets.styles&&assets.styles.length) loadCSS(assets.styles);
+
+  if (root.children) root.children.forEach((c,i) => ct(c, COLORS[(i+1)%COLORS.length]));
+  function ct(n,col){ n.state=n.state||{}; n.state.color=col; (n.children||[]).forEach(c=>ct(c,col)); }
+  (function af(n,p){ if(FOLD[p]!==undefined){n.payload=n.payload||{};n.payload.fold=FOLD[p];} (n.children||[]).forEach((c,i)=>af(c,p+'/'+i)); })(root,'0');
+
+  const svg = document.getElementById('mm');
+  let exMaxW=500;
+  const inst = Markmap.create(svg, { maxWidth:exMaxW, color:n=>(n.state&&n.state.color)||COLORS[0], paddingX:22, duration:250 }, root);
+
+  const obs = new MutationObserver(()=>{ clearTimeout(obs._t); obs._t=setTimeout(()=>injectFO(svg,dark),80); });
+  obs.observe(svg,{childList:true,subtree:true});
+  setTimeout(()=>injectFO(svg,dark),200);
+  setTimeout(()=>injectFO(svg,dark),800);
+
+  function applyTheme(dk) {
+    dark = dk;
+    document.body.classList.toggle('light', !dk);
+    const ti = document.getElementById('tb-ti');
+    if (ti) ti.innerHTML = dk
+      ? `<circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>`
+      : `<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>`;
+    injectFO(svg, dk);
+  }
+  document.getElementById('tb-theme').addEventListener('click',()=>applyTheme(!dark));
+
+  function zb(f){ const g=svg.querySelector('g'); if(!g)return; const t=g.getAttribute('transform')||''; const sm=t.match(/scale\(([^)]+)\)/),tm=t.match(/translate\(([^,]+),\s*([^)]+)\)/); let s=sm?parseFloat(sm[1]):1,tx=tm?parseFloat(tm[1]):0,ty=tm?parseFloat(tm[2]):0; const cx=window.innerWidth/2,cy=window.innerHeight/2; tx=cx-(cx-tx)*f; ty=cy-(cy-ty)*f; g.setAttribute('transform',`translate(${tx},${ty}) scale(${s*f})`); }
+  document.getElementById('tb-zi').addEventListener('click',()=>zb(1.3));
+  document.getElementById('tb-zo').addEventListener('click',()=>zb(1/1.3));
+  document.getElementById('tb-fit').addEventListener('click',()=>inst.fit());
+
+  document.getElementById('tb-settings').addEventListener('click',()=>document.getElementById('s-bg').classList.add('open'));
+  document.getElementById('s-close-btn').addEventListener('click',()=>document.getElementById('s-bg').classList.remove('open'));
+  document.getElementById('s-bg').addEventListener('click',e=>{ if(e.target===e.currentTarget) e.currentTarget.classList.remove('open'); });
+  document.getElementById('s-maxw').addEventListener('input',function(){ const v=parseInt(this.value); if(!v||v<50)return; exMaxW=v; inst.setOptions({maxWidth:exMaxW}); inst.setData(root); inst.fit(); });
+
+  const aiBannerEl = document.getElementById('ai-banner');
+  const aiClose = document.getElementById('ai-close');
+  if (aiClose) aiClose.addEventListener('click',()=>{ if(aiBannerEl) aiBannerEl.style.display='none'; });
+
+  applyTheme(dark);
+})();
+</script>
+</body>
+</html>
