@@ -1,7 +1,7 @@
 @echo off
 title Pubblicazione Mappe Nodely
 
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\tomma\Documents\Varie\Mappe Nodely\pubblica-mappe.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%USERPROFILE%\Documents\Varie\Mappe Nodely\pubblica-mappe.ps1"
 
 echo.
 echo ------------------------------------------------------------
