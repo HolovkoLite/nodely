@@ -1,0 +1,69 @@
+---
+markmap:
+  initialExpandLevel: 1
+---
+
+# L'Impero Napoleonico
+
+## 1. Napoleone Riconquista l'Italia e Diventa Imperatore
+
+* **Riconquista dell'Italia (Primavera 1800)**
+    * Ripresa delle operazioni militari contro gli Austriaci dopo la nomina a console
+    * Valico delle Alpi e discesa in Italia
+    * Sconfitta dell'esercito austriaco
+    * **Riorganizzazione territoriale**
+        * Ricostituzione della **Repubblica Cisalpina**
+          * Poi ribattezzata Repubblica Italiana e, nel 1805, **Regno d'Italia**
+        * Ricostituzione della **Repubblica Ligure**
+        * Annessione diretta del **Piemonte** alla Francia
+    * **Dominio Francese:** Quasi tutto il territorio italiano (eccezioni: Veneto, parte dello Stato Pontificio, Regno di Napoli inizialmente)
+
+* **Ascesa all'Impero**
+    * **1802:** Proclamato **console a vita** tramite plebiscito, forte dei successi militari
+    * **2 dicembre 1804:** Incoronato **"Imperatore dei Francesi"** nella cattedrale di Notre Dame a Parigi
+        * Presenza di Papa Pio VII
+          * Napoleone si pose la corona da solo, sottolineando la superiorità dell'autorità imperiale su quella della Chiesa
+    * **Cambiamento Ideologico**
+        * Ideali della Rivoluzione accantonati
+        * Ritorno del potere in mano a un **sovrano assoluto**
+        * I Francesi diventano nuovamente **sudditi**
+
+## 2. La Terza Coalizione Antifrancese (1805) e l'espansione territoriale
+
+* **Formazione della Terza Coalizione (1805)**
+    * Causa: minaccia concreta di un Napoleone sempre più aggressivo
+    * Membri: Gran Bretagna, Austria, Russia, Svezia, Regno di Napoli
+    * Dichiarazione di guerra alla Francia
+* **Battaglie Chiave**
+    * **Battaglia di Trafalgar**
+        * Luogo: Vicino allo stretto di Gibilterra
+        * Esito: **Disfatta della flotta francese** ad opera delle navi inglesi dell'ammiraglio Nelson (che perse la vita)
+    * **Battaglia di Austerlitz**
+        * Luogo: Moravia (attuale Repubblica Ceca)
+        * Esito: **Trionfo dei Francesi** in campo aperto
+* **Conseguenze per l'Austria**
+    * Sconfitta, esce dalla coalizione
+    * Cessione alla Francia di: **Veneto, Istria, Dalmazia** (che entrarono a far parte del Regno d'Italia)
+
+## 3. Ulteriore Espansione Napoleonica e Conflitti
+
+* **Occupazione del Regno di Napoli**
+    * Le armate napoleoniche occupano il regno
+    * Napoleone pone sul trono suo fratello **Giuseppe Bonaparte**
+* **Riorganizzazione della Germania**
+    * Creazione della **Confederazione del Reno**
+        * Lega di Stati tedeschi
+        * Cancellazione dell'esistenza del Sacro Romano Impero Germanico (esistente dal 962)
+* **Guerra Economica contro la Gran Bretagna e Invasione della Spagna**
+    * Dopo la sconfitta di una nuova coalizione (la quarta), la Gran Bretagna resta l'unico grande avversario
+    * **Blocco Continentale**
+        * Obiettivo: Colpire gli interessi commerciali inglesi (non potendo sconfiggerla sui mari)
+        * Divieto di trasporto e vendita di merci inglesi nei territori controllati dalla Francia o suoi alleati
+        * Scopo: Indebolire l'economia britannica e costringerla ad accettare le condizioni di pace francesi
+    * **Difficoltà del Blocco Continentale**
+        * Il Portogallo non aderisce
+        * **1808:** Napoleone occupa il Portogallo
+        * Invasione della **Spagna**: Napoleone insedia sul trono uno dei suoi fratelli
+    * **Conseguenze**
+        * Entrambi i Paesi Iberici, sostenuti dagli Inglesi, si ribellano all'occupazione francese
+        * Inizio di una lunga e durissima **guerriglia**

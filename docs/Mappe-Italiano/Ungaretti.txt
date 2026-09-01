@@ -1,0 +1,42 @@
+---
+title: Giuseppe Ungaretti
+markmap:
+  colorFreezeLevel: 2
+  initialExpandLevel: 8
+---
+
+## Vita
+- Nasce ad Alessandria d'Egitto nel 1888 da genitori italiani
+- Il padre lavorava alla costruzione del Canale di Suez
+- Termina gli studi a Parigi ed entra in contatto con i grandi artisti del tempo
+- Nel 1914 si schiera con gli interventisti
+- Allo scoppio della Prima guerra mondiale si arruola come volontario
+- Dopo la guerra aderisce al fascismo
+- Insegna Letteratura italiana a San Paolo in Brasile e a Roma
+- Muore a Milano nel 1970
+
+## Opere
+- *Il porto sepolto* (1916)
+  - Poesie autobiografiche
+  - Rievoca gli anni in Egitto e la guerra
+- *L'allegria* (1931)
+  - Raccolta in cui confluisce *Il porto sepolto* e *Allegria di naufragi*
+  - Riflette su guerra, fragilità umana, importanza della fraternità
+- *Sentimento del tempo* (1933)
+  - Raccolta influenzata dalla crisi religiosa
+  - Ungaretti si avvicina alla fede cristiana
+  - Presenti tempo elevati come il tempo e la morte
+- *Il dolore* (1947)
+  - Raccolta in cui esprime il dolore per la morte del figlio, del fratello e per la guerra
+- *Vita di un uomo* (1969)
+  - Raccolta autobiografica del poeta
+
+## Pensiero
+- Iniziatore dell'ermetismo
+  - Essenzialità della parola, ricca di significati profondi
+  - Si lega all'esperienza sconvolgente della Prima guerra mondiale
+  - Linguaggio oscuro
+  - Poesia come momento di folgorazione e intuizione
+  - Alto valore allusivo e simbolico
+- Verso libero
+- Senso di vuoto e solitudine morare dell'uomo contemporaneo

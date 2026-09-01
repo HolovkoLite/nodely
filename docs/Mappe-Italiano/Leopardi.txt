@@ -1,0 +1,61 @@
+---
+title: Giacomo Leopardi
+markmap:
+  colorFreezeLevel: 2
+  initialExpandLevel: 1
+---
+
+## Vita
+- Nasce a Recanati nel 1798 da una famiglia nobile
+- Cresce in un ambiente chiuso di provincia: il padre è indifferente verso di lui, la madre severa
+- Studia da autodidatta, ma il troppo studio gli rovina la salute
+- Gira l'Italia, ma rimane sempre insoddisfatto
+- Muore a Napoli nel 1833, a 39 anni
+
+## Opere
+- *Canti*
+  - Raccolta di 41 componimenti in versi
+  - Scritti tra il 1818 e la morte
+  - Sui temi più vari: patria, filosofia, amore
+  - Si possono dividere in
+    - Piccoli idilli
+      - Poesie brevi
+      - Il poeta esprime sentimenti e riflessioni
+      - *L'Infinito*
+      - *La sera del dì di festa*
+      - *Alla luna*
+    - Grandi idilli
+      - Poesie più lunghe
+      - Scontro tra l'aspirazione alla felicità e la perenne infelicità
+      - *A Silvia*
+      - *Il sabato del villaggio*
+      - *Il passero solitario*
+- *Operette morali*
+  - Opera filosofica
+  - 24 componimenti in prosa, sotto forma di dialoghi
+  - Leopardi esprime la propria concezione pessimistica della vita
+- *Zibaldone*
+  - Raccolta di pensieri, note, appunti e riflessioni
+  - Scritte tra il 1817 e il 1832
+  - Alcune brevissime, altre ampie
+  - Stile asciutto
+
+## Pensiero
+- Pessimismo
+  - Concezione della vita dominata dal dolore e dall'infelicità
+  - Causa dell'infelicità è la Natura
+    - Inizialmente vista come buona e benigna
+    - Poi vista come matrigna, suscita nell'uomo speranze che delude
+  - L'infelicità nasce dal desiderio di felicità che non può essere raggiunto
+    - Pessimismo individuale
+  - Tutti gli uomini subiscono gli stessi inganni della Natura
+    - Pessimismo umano
+  - La Natura non rende infelici solo gli uomini, ma tutto il creato
+    - Pessimismo cosmico
+  - Ciò che salva l'uomo da infelicità e noia è l'attività del pensiero
+    - Poesia, che è in versi sciolti (senza rima)
+- Poetica dell'indefinito
+  - Linguaggio con potere evocativo
+    - Tende a suscitare sensazioni più che a descrivere precisamente
+    - Unione di sensazioni uditive e visive
+    - Idee vaghe e indefinite che stimolano l'immaginazione

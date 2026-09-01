@@ -1,0 +1,80 @@
+---
+markmap:
+  initialExpandLevel: 1
+---
+
+# L'Ascesa di Napoleone
+
+## 1. Contesto: La Francia Attacca l'Austria
+
+* **Motivazioni Francesi (1796)**
+    * Crisi economica interna non risolta
+    * Minaccia della coalizione antifrancese (Austria, Gran Bretagna, Stati italiani)
+    * **Obiettivi dichiarati dal Direttorio**
+        * Diffondere i principi della Rivoluzione
+        * Liberare i popoli oppressi dai regimi assoluti
+    * **Obiettivi reali**
+        * Guerra di conquista
+        * Riempire le casse dello Stato francese
+* **Strategia Francese**
+    * Attacco su due fronti contro l'Austria
+        * **Fronte tedesco** Pesanti sconfitte francesi
+        * **Fronte italiano** Considerato secondario, ma divenne un trionfo
+            * A capo il giovane generale Napoleone Bonaparte
+
+## 2. Napoleone e la Campagna d'Italia (1796-1797)
+
+* **Protagonista:** Napoleone Bonaparte, giovane generale
+* **Caratteristiche di Napoleone**
+    * Straordinarie capacità strategiche
+* **Svolgimento**
+    * Sconfitta delle truppe piemontesi e austriache
+    * Occupazione della **Lombardia**
+    * Avanzata fino allo **Stato Pontificio**
+* **Percezione di Napoleone**
+    * Accolto come liberatore
+    * Portatore degli ideali rivoluzionari ("libertà, uguaglianza, fratellanza")
+* **Conclusione**
+    * **Pace di Campoformio (17 ottobre 1797)**
+        * L'Austria cede alla Francia
+            * Lombardia
+            * Belgio
+        * L'Austria riceve in cambio
+            * Territori della Repubblica di Venezia (Veneto, Istria, Dalmazia), prima libera, ma occupata dalle truppe napoleoniche
+
+## 3. Nascita delle Repubbliche Sorelle in Italia
+
+* **Definizione** Territori italiani "amici" della Francia, ispirati agli ideali della Rivoluzione francese
+* **Caratteristiche**
+    * Adozione di Costituzioni simili a quella francese del 1795 (moderata)
+        * **Importanti riforme**
+          * Abolizione dei privilegi feudali
+          * Confisca dei beni della Chiesa (venduti a privati)
+          * Affermazione dell'uguaglianza dei cittadini di fronte alla legge
+          * Affermazione della libertà di associazione e di stampa
+* **Realtà delle Repubbliche Sorelle**
+    * **Libertà solo formale**
+      * In teoria "sorelle", in pratica sottoposte
+    * Sotto stretto **controllo politico ed economico della Francia**
+    * Obbligo di pagare pesanti tasse alla Francia
+    * Nessun miglioramento nelle condizioni di vita della popolazione
+    * Popolazione costretta a subire le **continue razzie dell'esercito napoleonico**
+
+## 4. La Campagna d'Egitto
+
+* **Nuovo Nemico:** Gran Bretagna (dopo la sconfitta dell'Austria)
+    * Per la Francia impossibilità di batterla sui mari
+* **Decisione (1798):** Inviare Napoleone in Egitto
+* **Obiettivi della Campagna d'Egitto**
+    * Colpire gli interessi economici inglesi
+    * L'Egitto era un punto d'appoggio strategico per il commercio inglese nel Mediterraneo diretto in India
+* **Svolgimento**
+    * **Vittorie iniziali di Napoleone**
+        * Battaglia delle Piramidi (21 luglio 1798) contro i Mamelucchi
+    * **Sconfitta decisiva**
+        * Distruzione della flotta francese nella baia di Abukir (delta del Nilo) da parte dell'ammiraglio Horatio Nelson
+* **Conseguenze**
+    * Napoleone rimane isolato
+    * Nessuna possibilità di comunicazione con la madrepatria
+    * Bloccato in Egitto per molti mesi (fino al maggio 1799)
+    * **Fallimento della campagna**

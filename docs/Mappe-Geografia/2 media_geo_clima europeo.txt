@@ -1,0 +1,63 @@
+---
+title: Clima europeo
+markmap:
+  colorFreezeLevel: 2
+  initialExpandLevel: 1
+---
+
+## Fattori
+- Latitudine
+- Altitudine
+- Rilievi montuosi
+  - Bloccano l'aria fredda proveniente dal Nord Europa.
+- Distanza dal mare
+  - Marittimità. Escursione termica minore. 
+  - Continentalità. Escursione termica maggiore. 
+- Corrente del Golfo
+  - Corrente marina calda proveniente dal Golfo del Messico. 
+- Venti
+  - Occidentali. Dall'Atlantico, sono freschi, umidi e portano pioggia.
+  - Nord-est. Freddi e secchi, non portano pioggia e rendono rigide le temperature.
+  - Meridionali. Dall'Africa, caldi (es. scirocco).
+
+## Cicloni e anticicloni
+- Cicloni (bassa pressione) e anticicloni (alta pressione) ingluenzano il clima. 
+  - Inverno
+    - L'anticiclone siberiano porta aria fredda e secca sull'Europa centrale.
+    - Piogge sulle Isole Britanniche e sul Mediterraneo.
+  - Estate
+    - L'anticiclone delle Azzorre porta tempo bello e secco sul Mediterraneo.
+    - Piogge sull'Europa centrale e orientale.
+
+## Le regioni climatiche europee
+  - Clima subpolare (e d'alta montagna)
+    - Zone
+      - Estremo Nord Europa e montagne sopra i 2000 m.
+    - Caratteristiche
+      - Temperature spesso sotto zero. Due stagioni: un inverno lungo e freddo e un'estate breve e fresca (intorno ai 10°C).
+    - Vegetazione e fauna
+      - Suolo ghiacciato in profondità (permafrost), non ci sono alberi, ma muschi e licheni (tundra).
+      - Gli animali vanno in letargo (orsi, marmotte) o migrano a sud (renne).
+  - Clima continentale
+    - Zone
+      - Europa centrale e orientale, lontano dai mari.
+    - Caratteristiche
+        - Piogge scarse e grande differenza di temperatura tra inverno ed estate.
+    - Tipi:
+      - Continentale freddo. Inverni molto freddi e lunghi, estati brevi e calde. La vegetazione tipica è la taiga (foresta di conifere).
+      - Continentale temperato. Inverni freddi, estati calde e umide. Prevalgono le foreste di latifoglie, abitate da cervi, lupi, orsi e volpi.
+      - Continentale caldo. Inverni freddi ma brevi, estati lunghe, secche e calde. Le scarse piogge favoriscono la steppa, una prateria erbosa.
+  - Clima atlantico
+    - Zone
+      - Europa occidentale, affacciata sull'Oceano Atlantico.
+    - Caratteristiche
+      - Clima fresco e umido, con piogge frequenti tutto l'anno a causa dell'influenza dell'oceano.
+    - Vegetazione e fauna
+      - L'ambiente originale (boschi, brughiere) è stato molto modificato dall'uomo e oggi si trova solo nei parchi naturali.
+  - Clima mediterraneo
+    - Zone
+      - Coste che si affacciano sul Mar Mediterraneo o sul Mar Nero.
+    - Caratteristiche
+      - Inverni miti e a volte piovosi, estati lunghe, calde e secche.
+    - Vegetazione e fauna
+      - Macchia mediterranea, formata da arbusti che necessitano di poca acqua. Oggi sostituita da vite, ulivo e agrumi.

@@ -1,0 +1,67 @@
+---
+markmap:
+  initialExpandLevel: 1
+---
+
+# Il Colpo di Stato di Napoleone
+## 1. Il Colpo di Stato di Napoleone
+  * **Contesto (Estate 1799)**
+    * Francia in estrema difficoltà
+    * Sconfitte militari ad opera della seconda coalizione antifrancese (Gran Bretagna, Impero Ottomano, Austria, Russia)
+    * Crollo delle Repubbliche sorelle
+    * Direttorio dimostratosi debole e incapace
+  * **L'Evento (9 Novembre 1799 - 18 Brumaio)**
+    * Napoleone, tornato dall'Egitto, raggiunge Parigi
+    * Prende il potere con un **colpo di Stato**
+    * Scioglie le Camere e il Direttorio
+    * Crea un nuovo governo: il **Consolato** (formato da tre consoli)
+  * **Napoleone Primo Console**
+    * Rapida concentrazione di poteri eccezionali nelle sue mani
+    * Competenze
+      * Presentare le leggi
+      * Nominare i ministri
+      * Difendere gli interessi della nazione
+
+## 2. Caratteristiche del Governo Napoleonico
+* **Dualità Iniziale**
+    - **Conservazione della forma repubblicana.**
+      - Mantenimento di molte libertà affermate dalla Rivoluzione
+    - **Natura Autoritaria.**
+      - Limitazione della libertà di opinione e di stampa
+      - Potenziamento del controllo della polizia per reprimere voci contrarie
+  - **Stato Efficiente e Fortemente Centralizzato.**
+    - Basato sul diretto controllo del governo
+      - **Piano Amministrativo**
+        - Nomina diretta dei **prefetti** a capo dei dipartimenti (province)
+        - Nomina diretta dei **sindaci** delle città
+        - Controllo diretto dell'operato di prefetti e sindaci
+      - **Piano Economico**
+        - Creazione della **Banca di Francia**
+      - **Piano Culturale ed Educativo**
+        - Istituzione dei **licei**
+          - Insegnamento delle materie umanistiche e nozioni di base di discipline matematiche
+          - Formare futuri impiegati e gradi inferiori dell'esercito
+        - Riorganizzazione dell'**Università**
+          - Preparazione dei maggiori funzionari dello Stato e ufficiali dell'esercito
+        - Consolidamento delle **scuole politecniche**
+          - Destinate a formare ingegneri civili e militari
+      - **Piano Civile**
+        - Il Codice Napoleonico (Codice Civile - 1804)
+          - **Definizione**: Nuova raccolta di tutte le leggi che regolano la vita privata e pubblica dei cittadini
+          - **Conferma delle Conquiste della Rivoluzione**
+            - Abolizione dei diritti feudali
+            - Abolizione dei privilegi fiscali di nobili e clero
+            - Uguaglianza dei cittadini davanti alla legge
+            - Libertà di pensiero e di religione
+            - **Laicità dello Stato** (indipendenza nei confronti di qualsiasi fede religiosa)
+        - **Valorizzazione degli Ideali della Borghesia**
+          - Difesa del **diritto alla proprietà privata**
+          - Difesa dell'**istituto della famiglia**
+## 3. Il Concordato con la Chiesa Cattolica (1801)
+  - **Contesto:** Necessità di risolvere i conflitti con i cattolici e aumentare il consenso popolare
+  - **Accordo:** Firmato tra Napoleone e Papa Pio VII
+  - **Termini Principali**
+    - Riconoscimento del Cattolicesimo come "la religione della maggioranza dei Francesi"
+    - **Mantenimento del principio della libertà religiosa**
+    - Il clero non doveva più giurare fedeltà allo Stato
+    - Il clero continuava ad essere mantenuto a spese dello Stato

@@ -1,0 +1,50 @@
+---
+title: Ugo Foscolo
+markmap:
+  colorFreezeLevel: 2
+  initialExpandLevel: 1
+---
+
+# Ugo Foscolo
+
+## Vita
+- Nasce nel 1778 a Zacinto (isola del mar Ionio), da padre veneziano e madre greca
+- Si sente molto legato ai valori della civiltà classica
+- Nel 1793, alla morte del padre, si trasferisce a Venezia
+- Negli anni in Italia studia molto i classici e scrive poesie
+- È sostenitore delle politiche napoleoniche, ma dopo il trattato di Campoformio va in esilio a Milano
+- Muore a Londra nel 1827
+- Nel 1871 le sue spoglie vengono portate a Santa Croce a Firenze
+
+## Opere
+- *Ultime lettere di Jacopo Ortis*
+  - Romanzo epistolare
+  - Ricco di spunti autobiografici
+  - Foscolo rivive la propria delusione verso Napoleone
+- *Odi*
+  - Due liriche (poesie) dedicate a due donne
+  - Celebra la bellezza femminile come fonte di serenità per l'uomo
+  - *A Luigia Pallavicini caduta da cavallo* e *All'amica risanata*
+- *Sonetti*
+  - 12 poesie
+  - Temi sono l'amore, il dolore e gli affetti familiari
+  - *Alla sera*, *A Zacinto*, *In morte del fratello Giovanni*
+- *Le Grazie*
+  - Poemetto mitologico incompiuto
+  - Costituito da tre inni (Venere, Vesta e Atena)
+- *Dei Sepolcri*
+  - Carme di tono elevato
+  - Costituito da 295 endecasillabi sciolti
+  - Esorta a custodire le memorie del passato e il valore delle tombe
+  - Il capolavoro di Foscolo
+
+## Pensiero
+- Coesistono elementi del Neoclassicismo e del Romanticismo
+  - Amore per ideali di bellezza e armonia
+  - Conflitto tra sentimento e ragione
+  - Stato di inquietudine e ansia per tutta la sua vita
+- Gli ideali di bellezza, amore, libertà ed eroismo sono illusioni
+- Le illusioni sono indispensabili all'uomo per dare senso alla vita
+- Solo la poesia non è illusione, ma il momento in cui gli ideali umani si realizzano
+- La poesia ha una missione eroica di liberazione e consolazione
+  - Deve avere tono solenne, linguaggio alto, ricco di figure retoriche e latinismi
